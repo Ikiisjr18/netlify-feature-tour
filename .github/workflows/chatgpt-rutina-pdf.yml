@@ -1,0 +1,21 @@
+name: Build workout PDF
+on:
+  push:
+    branches: [chatgpt-rutina-pdf]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install reportlab pillow requests
+      - run: python build_rutina_pdf.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: rutina-mujer-real-fotos
+          path: rutina_mujer_real_fotos.pdf
+          retention-days: 1

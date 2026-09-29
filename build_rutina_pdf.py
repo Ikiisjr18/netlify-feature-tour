@@ -39,7 +39,7 @@ days=[
 ("MIÉRCOLES - PIERNAS: CUÁDRICEPS + PANTORRILLA", "#E07A2D", [
 ("Sentadilla con barra","Barbell_Squat","4","8-10","90-120 s","Rodillas en línea con los pies y espalda estable; baja solo hasta donde controles."),
 ("Prensa de piernas","Leg_Press","3","10-12","90-120 s","No bloquees las rodillas y no despegues la cadera del respaldo."),
-("Extensión de cuádriceps","Leg_Extensións","3","12-15","60-75 s","Sube y baja controlado; no lances el peso."),
+("Extensión de cuádriceps","Leg_Extensions","3","12-15","60-75 s","Sube y baja controlado; no lances el peso."),
 ("Zancadas caminando","Barbell_Walking_Lunge","3","10 por pierna","75-90 s","Paso estable; rodilla alíneada con el pie."),
 ("Elevación de pantorrillas de pie","Standing_Calf_Raises","4","12-20","60 s","Sube al máximo, pausa corta y baja lentamente.")
 ]),

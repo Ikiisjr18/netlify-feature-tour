@@ -22,40 +22,40 @@ else:
     FONT,FONTB="Helvetica","Helvetica-Bold"
 
 days=[
-("LUNES - GLUTEOS + FEMORALES", "#C83F83", [
-("Hip thrust con barra","Barbell_Hip_Thrust","4","8-12","90-120 s","Espalda alta en el banco; termina apretando gluteos, sin arquear la zona lumbar."),
-("Peso muerto rumano","Romanian_Deadlift","3","8-10","90-120 s","Cadera hacia atras, espalda neutra y barra cerca de las piernas."),
+("LUNES - GLÚTEOS + FEMORALES", "#C83F83", [
+("Hip thrust con barra","Barbell_Hip_Thrust","4","8-12","90-120 s","Espalda alta en el banco; termina apretando glúteos, sin arquear la zona lumbar."),
+("Peso muerto rumano","Romanian_Deadlift","3","8-10","90-120 s","Cadera hacia atrás, espalda neutra y barra cerca de las piernas."),
 ("Sentadilla dividida con mancuernas","Split_Squat_with_Dumbbells","3","10 por pierna","75-90 s","Pie delantero firme; baja con control y empuja con toda la planta."),
-("Curl femoral sentado","Seated_Leg_Curl","3","10-15","60-90 s","Ajusta bien la maquina; flexiona y vuelve lento, sin rebote."),
-("Abduccion de cadera en maquina","Thigh_Abductor","3","15-20","60 s","Tronco estable; abre con control y no rebotes.")
+("Curl femoral sentado","Seated_Leg_Curl","3","10-15","60-90 s","Ajusta bien la máquina; flexiona y vuelve lento, sin rebote."),
+("Abducción de cadera en máquina","Thigh_Abductor","3","15-20","60 s","Tronco estable; abre con control y no rebotes.")
 ]),
 ("MARTES - TREN SUPERIOR A", "#287B63", [
-("Jalon al pecho","Wide-Grip_Lat_Pulldown","3","8-12","75-90 s","Lleva la barra hacia la parte alta del pecho; evita balancearte."),
-("Remo sentado en polea","Seated_Cable_Rows","3","8-12","75-90 s","Pecho estable; lleva los codos atras y junta escapulas."),
+("Jalón al pecho","Wide-Grip_Lat_Pulldown","3","8-12","75-90 s","Lleva la barra hacia la parte alta del pecho; evita balancearte."),
+("Remo sentado en polea","Seated_Cable_Rows","3","8-12","75-90 s","Pecho estable; lleva los codos atrás y junta escápulas."),
 ("Press de pecho con mancuernas","Dumbbell_Bench_Press","3","8-12","75-90 s","Pies firmes; baja con control y empuja sin chocar las mancuernas."),
 ("Press de hombros con mancuernas","Dumbbell_Shoulder_Press","3","8-12","75-90 s","Abdomen firme; no arquees la espalda."),
-("Curl de biceps con mancuernas","Dumbbell_Bicep_Curl","3","10-15","60 s","Codos pegados al cuerpo; evita balancearte.")
+("Curl de bíceps con mancuernas","Dumbbell_Bicep_Curl","3","10-15","60 s","Codos pegados al cuerpo; evita balancearte.")
 ]),
-("MIERCOLES - PIERNAS: CUADRICEPS + PANTORRILLA", "#E07A2D", [
-("Sentadilla con barra","Barbell_Squat","4","8-10","90-120 s","Rodillas en linea con los pies y espalda estable; baja solo hasta donde controles."),
+("MIÉRCOLES - PIERNAS: CUÁDRICEPS + PANTORRILLA", "#E07A2D", [
+("Sentadilla con barra","Barbell_Squat","4","8-10","90-120 s","Rodillas en línea con los pies y espalda estable; baja solo hasta donde controles."),
 ("Prensa de piernas","Leg_Press","3","10-12","90-120 s","No bloquees las rodillas y no despegues la cadera del respaldo."),
-("Extension de cuadriceps","Leg_Extensions","3","12-15","60-75 s","Sube y baja controlado; no lances el peso."),
-("Zancadas caminando","Barbell_Walking_Lunge","3","10 por pierna","75-90 s","Paso estable; rodilla alineada con el pie."),
-("Elevacion de pantorrillas de pie","Standing_Calf_Raises","4","12-20","60 s","Sube al maximo, pausa corta y baja lentamente.")
+("Extensión de cuádriceps","Leg_Extensións","3","12-15","60-75 s","Sube y baja controlado; no lances el peso."),
+("Zancadas caminando","Barbell_Walking_Lunge","3","10 por pierna","75-90 s","Paso estable; rodilla alíneada con el pie."),
+("Elevación de pantorrillas de pie","Standing_Calf_Raises","4","12-20","60 s","Sube al máximo, pausa corta y baja lentamente.")
 ]),
 ("JUEVES - TREN SUPERIOR B", "#2F73B5", [
 ("Remo con mancuerna a una mano","One-Arm_Dumbbell_Row","3","10-12 por lado","75-90 s","Espalda neutra; lleva el codo hacia la cadera sin rotar el torso."),
-("Press inclinado con mancuernas","Incline_Dumbbell_Press","3","8-12","75-90 s","Inclinacion moderada; hombros estables y bajada controlada."),
+("Press inclinado con mancuernas","Incline_Dumbbell_Press","3","8-12","75-90 s","Inclinación moderada; hombros estables y bajada controlada."),
 ("Face pull en polea","Face_Pull","3","12-15","60 s","Tira hacia la cara con los codos altos; no arquees la espalda."),
-("Elevaciones laterales","Side_Lateral_Raise","3","12-15","60 s","Sube hasta la altura del hombro sin balancear el cuerpo."),
-("Jalon de triceps","Triceps_Pushdown","3","10-15","60 s","Codos quietos junto al cuerpo; extiende sin mover los hombros.")
+("Elevaciónes laterales","Side_Lateral_Raise","3","12-15","60 s","Sube hasta la altura del hombro sin balancear el cuerpo."),
+("Jalón de triceps","Triceps_Pushdown","3","10-15","60 s","Codos quietos junto al cuerpo; extiende sin mover los hombros.")
 ]),
-("VIERNES - GLUTEOS + PIERNA COMPLETA", "#8B4AAE", [
+("VIERNES - GLÚTEOS + PIERNA COMPLETA", "#8B4AAE", [
 ("Peso muerto sumo","Sumo_Deadlift","3","8-10","90-120 s","Pies abiertos; espalda neutra; empuja el suelo y extiende la cadera."),
-("Step-up con mancuernas","Dumbbell_Step_Ups","3","10 por pierna","75-90 s","Sube empujando con la pierna que esta sobre el cajon; controla la bajada."),
+("Step-up con mancuernas","Dumbbell_Step_Ups","3","10 por pierna","75-90 s","Sube empujando con la pierna que está sobre el cajón; controla la bajada."),
 ("Hip thrust con barra","Barbell_Hip_Thrust","3","10-12","90 s","Pausa arriba 1 segundo y evita hiperextender la espalda."),
 ("Patada de gluteo en polea","One-Legged_Cable_Kickback","3","12-15 por pierna","Mueve desde la cadera y manten el tronco quieto."),
-("Abduccion de cadera en maquina","Thigh_Abductor","3","15-20","60 s","Abre con control y mantente estable.")
+("Abducción de cadera en máquina","Thigh_Abductor","3","15-20","60 s","Abre con control y mantente estable.")
 ])
 ]
 
@@ -102,27 +102,27 @@ doc=SimpleDocTemplate(OUT,pagesize=A4,leftMargin=10*mm,rightMargin=10*mm,topMarg
 story=[]
 story += [
  Paragraph("Rutina completa de gimnasio para mujer",title),
- Paragraph("5 dias - empieza el lunes con gluteos - piernas incluidas 3 dias - fotos reales de ejercicios reales",sub),
+ Paragraph("5 días - empieza el lunes con glúteos - piernas incluidas 3 dias - fotos reales de ejercicios reales",sub),
  Spacer(1,5),
- Paragraph("<b>Objetivo:</b> fuerza e hipertrofia general con prioridad en gluteos y piernas, manteniendo un tren superior equilibrado.",note),
+ Paragraph("<b>Objetivo:</b> fuerza e hipertrofia general con prioridad en glúteos y piernas, manteniendo un tren superior equilibrado.",note),
  Spacer(1,7)
 ]
 overview=[["Dia","Trabajo principal"],
-["Lunes","Gluteos + femorales"],
+["Lunes","Glúteos + femorales"],
 ["Martes","Tren superior A"],
-["Miercoles","Cuadriceps + pantorrillas + core"],
+["Miércoles","Cuádriceps + pantorrillas + core"],
 ["Jueves","Tren superior B"],
-["Viernes","Gluteos + pierna completa"],
+["Viernes","Glúteos + pierna completa"],
 ["Sabado","Descanso o caminata suave"],
 ["Domingo","Descanso"]]
 ot=Table([[Paragraph(f"<b>{c}</b>",body) for c in overview[0]]]+[[Paragraph(c,body) for c in row] for row in overview[1:]],colWidths=[42*mm,138*mm])
 ot.setStyle(TableStyle([("BACKGROUND",(0,0),(-1,0),colors.HexColor("#ECE4F1")),("GRID",(0,0),(-1,-1),0.4,colors.HexColor("#D4D4D4")),("PADDING",(0,0),(-1,-1),6),("VALIGN",(0,0),(-1,-1),"MIDDLE")]))
 story += [ot,Spacer(1,8),
- Paragraph("<b>Como usarla:</b> calienta 5-10 minutos y haz 1-2 series ligeras del primer ejercicio. Usa un peso que te deje aproximadamente 2 repeticiones posibles con buena tecnica al terminar cada serie. Cuando alcances el maximo de repeticiones de todas las series sin perder tecnica, sube el peso ligeramente.",body),
+ Paragraph("<b>Como usarla:</b> calienta 5-10 minutos y haz 1-2 series ligeras del primer ejercicio. Usa un peso que te deje aproximadamente 2 repeticiones posibles con buena técnica al terminar cada serie. Cuando alcances el máximo de repeticiones de todas las series sin perder técnica, sube el peso ligeramente.",body),
  Spacer(1,5),
- Paragraph("<b>Core:</b> al terminar el miercoles haz 3 series de plancha de 30-45 segundos. Cardio opcional: 10-20 minutos suaves al final de 2-3 sesiones.",body),
+ Paragraph("<b>Core:</b> al terminar el miercoles haz 3 series de plancha de 30-45 segundos. Cardio opcional: 10-20 minutos suaves al final de 2-3 sesiónes.",body),
  Spacer(1,8),
- Paragraph("Las fotografias de ejercicio de esta guia proceden de free-exercise-db, un conjunto de datos e imagenes de dominio publico. Son fotos reales usadas como referencia visual; la tecnica debe adaptarse a tu movilidad y experiencia.",small),
+ Paragraph("Las fotografías de ejercicio de esta guia proceden de free-exercise-db, un conjunto de datos e imágenes de dominio público. Son fotos reales usadas como referencia visual; la técnica debe adaptarse a tu movilidad y experiencia.",small),
  PageBreak()
 ]
 
@@ -145,11 +145,11 @@ for di,(dtitle,color,exs) in enumerate(days):
         story += [card,Spacer(1,3.2*mm)]
     if di==2:
         story += [Paragraph("<b>Finisher de core:</b> Plancha - 3 x 30-45 s, descanso 45-60 s.",note)]
-    story += [Spacer(1,2),Paragraph("Foto: free-exercise-db (dominio publico). La imagen sirve como referencia de posicion y equipo; realiza el movimiento de forma controlada.",small)]
+    story += [Spacer(1,2),Paragraph("Foto: free-exercise-db (dominio público). La imagen sirve como referencia de posición y equipo; realiza el movimiento de forma controlada.",small)]
     if di < len(days)-1: story.append(PageBreak())
 
-story += [PageBreak(),Paragraph("Progresion y seguridad",title),
- Paragraph("<b>Progresion:</b> si un ejercicio indica 3 x 8-12, conserva el mismo peso hasta completar 12 repeticiones en las 3 series con tecnica limpia. En la siguiente sesion aumenta un poco la carga y vuelve cerca de 8-10 repeticiones.",body),Spacer(1,8),
+story += [PageBreak(),Paragraph("Progresión y seguridad",title),
+ Paragraph("<b>Progresión:</b> si un ejercicio indica 3 x 8-12, conserva el mismo peso hasta completar 12 repeticiones en las 3 series con técnica limpia. En la siguiente sesión aumenta un poco la carga y vuelve cerca de 8-10 repeticiones.",body),Spacer(1,8),
  Paragraph("<b>No hace falta llegar al fallo.</b> Mantener 1-3 repeticiones en reserva en la mayoria de series suele permitir progresar con mejor control y recuperacion.",body),Spacer(1,8),
  Paragraph("<b>Dolor:</b> fatiga muscular y esfuerzo son normales; dolor agudo, pinchazo o dolor articular no lo son. Si aparece, detente y revisa el ejercicio.",body),Spacer(1,10),
  Paragraph("<b>Fuente de las fotos:</b> yuhonas/free-exercise-db - Public Domain / Unlicense. Fuente de programacion general: principios actuales de entrenamiento de resistencia del American College of Sports Medicine.",small)

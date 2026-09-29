@@ -77,9 +77,17 @@ def fetch_img(exid):
     im.save(path,"JPEG",quality=85,optimize=True)
     return path
 
+def unpack_row(row):
+    if len(row) == 6:
+        return row
+    if len(row) == 5:
+        ex, eid, sets, reps, cue = row
+        return ex, eid, sets, reps, "60-90 s", cue
+    raise ValueError(f"Fila de ejercicio invalida: {row}")
+
 for _,_,exs in days:
-    for _,eid,*_ in exs:
-        fetch_img(eid)
+    for row in exs:
+        fetch_img(unpack_row(row)[1])
 
 styles=getSampleStyleSheet()
 title=ParagraphStyle("t",parent=styles["Title"],fontName=FONTB,fontSize=21,leading=25,alignment=TA_CENTER,textColor=colors.HexColor("#4A245E"),spaceAfter=7)
@@ -122,7 +130,8 @@ for di,(dtitle,color,exs) in enumerate(days):
     hdr=Table([[Paragraph(dtitle,dayst)]],colWidths=[190*mm])
     hdr.setStyle(TableStyle([("BACKGROUND",(0,0),(-1,-1),colors.HexColor(color)),("LEFTPADDING",(0,0),(-1,-1),8),("TOPPADDING",(0,0),(-1,-1),6),("BOTTOMPADDING",(0,0),(-1,-1),6)]))
     story += [hdr,Spacer(1,4)]
-    for ex, eid, sets, reps, rest, cue in exs:
+    for row in exs:
+        ex, eid, sets, reps, rest, cue = unpack_row(row)
         img=Image(fetch_img(eid),width=47*mm,height=35.25*mm)
         info=Paragraph(f"<b>{ex}</b><br/><b>{sets} series x {reps}</b> &nbsp; | &nbsp; Descanso: {rest}<br/>{cue}",body)
         card=Table([[img,info]],colWidths=[51*mm,135*mm],rowHeights=[38*mm])
